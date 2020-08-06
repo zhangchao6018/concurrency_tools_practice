@@ -2,12 +2,13 @@ package threadlocal;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
  * 描述：     1000个打印日期的任务，用线程池来执行
+ *
+ * 10个线程一共新建了1000个SimpleDateFormat对象,资源浪费
  */
 public class ThreadLocalNormalUsage02 {
 

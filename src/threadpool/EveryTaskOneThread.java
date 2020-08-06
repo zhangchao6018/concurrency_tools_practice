@@ -1,7 +1,7 @@
 package threadpool;
 
 /**
- * 描述：     TODO
+ * 描述：     每创建一个线程new一次
  */
 public class EveryTaskOneThread {
 

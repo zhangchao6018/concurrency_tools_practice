@@ -7,6 +7,7 @@ import java.util.concurrent.Executors;
 
 /**
  * 描述：     1000个打印日期的任务，用线程池来执行
+ * 将SimpleDateFormat对象从run()中抽离到上层  出现错误(日期重复)
  */
 public class ThreadLocalNormalUsage03 {
 

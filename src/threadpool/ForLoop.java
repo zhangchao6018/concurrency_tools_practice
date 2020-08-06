@@ -1,9 +1,7 @@
 package threadpool;
 
-import java.util.concurrent.Executors;
-
 /**
- * 描述：     TODO
+ * 描述：     循环创建
  */
 public class ForLoop {
 
