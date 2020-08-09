@@ -10,11 +10,12 @@ public class AtomicIntegerDemo1 implements Runnable {
     private static final AtomicInteger atomicInteger = new AtomicInteger();
 
     public void incrementAtomic() {
+//        atomicInteger.getAndIncrement();
         atomicInteger.getAndAdd(-90);
     }
 
     private static volatile int basicCount = 0;
-
+    //不加synchronized则线程不安全
     public synchronized void incrementBasic() {
         basicCount++;
     }

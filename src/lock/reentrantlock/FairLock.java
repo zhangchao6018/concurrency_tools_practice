@@ -43,8 +43,8 @@ class Job implements Runnable {
 }
 
 class PrintQueue {
-
-    private Lock queueLock = new ReentrantLock(true);
+    //指定是公平还是非公平锁
+    private Lock queueLock = new ReentrantLock(false);
 
     public void printJob(Object document) {
         queueLock.lock();

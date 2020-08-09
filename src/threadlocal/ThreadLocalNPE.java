@@ -10,7 +10,7 @@ public class ThreadLocalNPE {
     public void set() {
         longThreadLocal.set(Thread.currentThread().getId());
     }
-
+    //TODO 用Long类型可避免空指针
     public long get() {
         return longThreadLocal.get();
     }

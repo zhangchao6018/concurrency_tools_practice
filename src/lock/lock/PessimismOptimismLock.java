@@ -3,7 +3,7 @@ package lock.lock;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 描述：     TODO
+ * 描述：     AtomicInteger--乐观锁的思想
  */
 public class PessimismOptimismLock {
 
