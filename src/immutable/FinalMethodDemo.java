@@ -14,7 +14,7 @@ public class FinalMethodDemo {
     }
 
     public static void sleep() {
-
+        System.out.println("父类的sleep");
     }
 }
 
@@ -29,7 +29,13 @@ class SubClass extends FinalMethodDemo {
 //    public final void eat() {
 //
 //    }
+    //其实不是重写
     public static void sleep() {
+        System.out.println("子类的sleep");
+    }
 
+    public static void main(String[] args) {
+//        new SubClass().sleep();
+        SubClass.sleep();
     }
 }

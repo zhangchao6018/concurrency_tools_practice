@@ -24,14 +24,19 @@ public class OptionsNotSafe implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 1000; i++) {
-            while (true) {
-                Integer score = scores.get("小明");
-                Integer newScore = score + 1;
-                boolean b = scores.replace("小明", score, newScore);
-                if (b) {
-                    break;
-                }
-            }
+            //不安全的方式
+            Integer score = scores.get("小明");
+            Integer newScore = score + 1;
+            scores.put("小明",newScore);
+            //正确的方式
+//            while (true) {
+//                Integer score = scores.get("小明");
+//                Integer newScore = score + 1;
+//                boolean b = scores.replace("小明", score, newScore);
+//                if (b) {
+//                    break;
+//                }
+//            }
         }
 
     }
