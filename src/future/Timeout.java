@@ -41,6 +41,7 @@ public class Timeout {
                 Thread.sleep(3000);
             } catch (InterruptedException e) {
                 System.out.println("sleep期间被中断了");
+                //该return将不会被采纳
                 return new Ad("被中断时候的默认广告");
             }
             return new Ad("旅游订票哪家强？找某程");
@@ -60,6 +61,7 @@ public class Timeout {
         } catch (TimeoutException e) {
             ad = new Ad("超时时候的默认广告");
             System.out.println("超时，未获取到广告");
+            //如果超时是否通知任务线程中断?
             boolean cancel = f.cancel(true);
             System.out.println("cancel的结果：" + cancel);
         }
