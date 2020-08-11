@@ -15,7 +15,6 @@ public class CountDownLatchDemo1 {
         for (int i = 0; i < 5; i++) {
             final int no = i + 1;
             Runnable runnable = new Runnable() {
-
                 @Override
                 public void run() {
                     try {
