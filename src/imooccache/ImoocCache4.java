@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 描述：     缩小了synchronized的粒度，提高性能，但是依然并发不安全
+ * 描述：     缩小了synchronized的粒度，提高性能，但是依然并发不安全--写的时候读
  */
 public class ImoocCache4<A, V> implements Computable<A, V> {
 
