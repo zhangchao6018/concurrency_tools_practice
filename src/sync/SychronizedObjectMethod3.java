@@ -1,5 +1,4 @@
-package hx.com;
-
+package synchronized;
 /**
  * 示例二————方法锁
  */
