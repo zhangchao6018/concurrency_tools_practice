@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 类锁的第一种形式，static形式

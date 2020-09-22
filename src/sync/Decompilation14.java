@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 描述:反编译一个字节码

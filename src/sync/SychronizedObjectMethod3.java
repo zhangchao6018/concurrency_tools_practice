@@ -1,4 +1,5 @@
-package synchronized;
+package sync;
+
 /**
  * 示例二————方法锁
  */

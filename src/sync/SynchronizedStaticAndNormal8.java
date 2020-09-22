@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 同时访问静态synchronized和非静态synchronized方法

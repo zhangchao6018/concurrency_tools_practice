@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 类锁的第二种形式——synchronized (*.class)

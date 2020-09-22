@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 同时访问一个类的不同的普通同步方法

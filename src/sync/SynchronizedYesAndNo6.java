@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 同时访问同步方法和非同步方法

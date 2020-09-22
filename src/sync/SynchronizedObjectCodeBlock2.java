@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 对象锁示例一，代码块形式

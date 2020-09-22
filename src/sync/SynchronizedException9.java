@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 方法抛异常后，会释放锁。

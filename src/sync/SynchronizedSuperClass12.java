@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 可重入粒度测试：调用父类方法

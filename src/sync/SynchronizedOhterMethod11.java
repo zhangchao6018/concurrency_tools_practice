@@ -1,4 +1,4 @@
-package hx.com;
+package sync;
 
 /**
  * 可重入粒度测试：递归类内另外方法
